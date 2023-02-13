@@ -42,7 +42,7 @@ elif(m>=3 and m<=12):
 #Formula given in assignment
 W = int(k + math.floor(2.6*m - 0.2) - 2*C + Y + math.floor(Y/4.0) + math.floor(C/4.0)) % 7
 
-print(f"\nDay of the Week: {weekday[W]}")
+print(f"Day of the Week: {weekday[W]}")
 
         
 
