@@ -5,9 +5,9 @@ weekday = ["Sunday", "Monday", "Tuesday","Wednesday", "Thursay", "Friday","Satur
 k=0
 #Month
 m=0
-#Century(19 or 20 - First 2 digits of Year)
+#Century(First 2 digits of Year - Ex. 19 in 1971)
 C=0
-#Year (Last two digits of year)
+#Year (Last two digits of Year)
 Y=0
 #Day of the Week
 W=0
