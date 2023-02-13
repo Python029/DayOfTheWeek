@@ -22,7 +22,7 @@ while True:
         date = input("\nDate must be 8 digits. Slashes must be included. Do not use more or less than 2 slashes.\nPlease input a date in MM/DD/YYYY format:\n")
     if(len(date)==10 and date.__contains__("/") and date.count("/")==2):
         break
-#Seperate Date by digit    
+#Seperate Date by slashes    
 day = date.split("/")
 #Seperate date into variables
 m = int(day[0])
